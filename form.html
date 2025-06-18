@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><image src="./ts.png"></image></center>
+    <form method="get">
+    <center><fieldset style="width: 400px;"</center>
+        <legend><button style="background-color:rgb(130, 220, 238);color:black;padding:8px;fontsize:larger">Application Details</button></legend>
+        <table border="0" cellpadding="20"cellspacing="0"  style="width: 1000px;">
+            <tr style="margin-right:100px" >
+             <td><label>Name</label>
+            <input type="text"name="details"placingholder="enter name"></td>
+            <td><label for="Father's/Guardian name">Father's/Guardian name</label>
+            <input type="text" name="details"placingholder=" enter name"></td>
+
+
+        </tr>
+            <tr>
+                <td><label>Date of birth</label>
+                <input type="date" name="date of birth" id="birthday"></td>
+                <td>
+                    <label>Gender:</label>
+                    <input type="radio" name="buttons">
+                    <label for="male">male</label>
+                    <input type="radio" name="buttons">
+                    <label for ="female">female</label>
+                    </td></tr>
+                    <tr><td>
+                        <label>Age</label>
+                        <input type="numbers" names="digits" id="numbers">
+
+                    </td>
+                   
+                    <td>
+                        <label>Aadhaar</label>
+                        <input type="text" name="Aadhaar" title="pattern" pattern="[0-9][/d]{12}">
+                        
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label>Whatsapp No</label>
+                        <input type="text" name="number"  id="number" title="whatsapp no" pattern="+91[9876][/d]{9}"></td>
+                    </tr>
+                    <td><label>Photo</label>
+                    <input type="file"name="choose file">
+                    </td>
+                    </tr>
+                
+            </tr>
+        </table>
+        
+        
+    </fieldset>
+    <br>
+    <center><fieldset style="width: 600px;"</center>
+        <legend><button style="background-color:rgb(130, 220, 238);color:black;padding:8px;fontsize:larger">Residential Address Details</button></legend>
+        <table border="0" cellpadding="20"cellspacing="0"  style="width: 1000px;">
+            <tr style="margin-right:100px" >
+              <td><label>Applicant Address</label>
+            <textarea type="text" name="adress" id="number" colspan="50" aria-rowspan="40"></textarea></td>
+            <td><label for="district">district</label>
+            <select id="district" name="places">
+  <option value="select">--select--</option>
+  <option value="palnadu">palnadu</option>
+  <option value="Guntur">Guntur</option>
+  <option value="macharla">macharla</option>
+  
+</select>
+            </tr>
+</td>
+<tr>
+    <td><label>Mandal</label>
+    <select id="district" name="places">
+   <option value="select">--select--</option>
+  <option value="palnadu">palnadu</option>
+  <option value="Guntur">Guntur</option>
+  <option value="macharla">macharla</option></td>
+  <td><label>Village</label>
+<select id="district" name="places">
+    <option value="select">--select--</option>
+  <option value="palnadu">palnadu</option>
+  <option value="Guntur">Guntur</option>
+  <option value="macharla">macharla</option></td>
+
+</tr>
+<tr>
+    <td><label>pincode:</label>
+    <input type="text" name="numbers" title="numbers" pattern="[56][0-9]{6}"</td> 
+    </tr>
+</table>
+</fieldset>
+<br>
+<center><fieldset style="width: 600px;"</center>
+        <legend><button style="background-color:rgb(130, 220, 238);color:black;padding:8px;fontsize:larger">Pass type Details</button></legend>
+        <table border="0" cellpadding="20"cellspacing="0"  style="width: 1000px;">
+            <tr style="margin-right:100px" >
+                <td><label>City</label>
+                    <select id="district" name="places">
+
+        <option value="andhra pradesh">Andhra Pradesh</option></select></td>
+         <td><label>Passtype</label>
+        <select id="passing" name="places">
+         <option value="online">select</option>
+         <option value="offline">Hyderabad</option></select></td></tr>
+   <tr><td cellpadding="2">
+
+   <label>route</label>
+   <select id="passing" name="places" style="width: 400px;">
+         <option value="online" disabled selected>select</option>
+         <option value="offline">Hyderabad</option></select></td>
+
+</tr>
+   </tr>
+    </table>
+    </body></fieldset><br>
+    <center><fieldset style="width: 600px;"</center>
+        <legend><button style="background-color:rgb(130, 220, 238);color:black;padding:8px;fontsize:larger">Pass type Details</button></legend>
+        <table border="0" cellpadding="20"cellspacing="0"  style="width: 1000px;">
+            <tr style="margin-right:100px" >
+                <td><label>Payment Mode</label>
+                    <select id="passing" name="places">
+        <option value="offline">select payment mode</option>
+         <option value="online">At onlie transaction</option></select></td></tr>
+         <tr><td><label>Pass delivery Mode</label>
+         <select id="passing" name="places">
+        <option value="offline">select pass delivery mode</option>
+         <option value="online">At counter</option></select></td></tr>
+        <tr><td><label>center at which you want</label>
+            <select id="passing" name="places"style="width: 400px;height:20px">
+        <option value="offline">--select--</option>
+         <option value="online">Hyderabad</option></select></tr></tr>
+        </tr>
+       
+       </td></tr>
+        </table>
+    </fieldset>
+    <br>
+   
+        <input type="submit"  value="submit" style="background-color:rgb(125, 21, 21); color:white; width: 100px; padding: 7px; font-size: medium;">
+   
+</form>        
+
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .
+        
